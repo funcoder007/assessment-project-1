@@ -57,7 +57,7 @@ img{
 }
 #mainfooter
 {
-   background-image: url("l.jpg");
+   background-image: url("../images/l.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    color: white;
