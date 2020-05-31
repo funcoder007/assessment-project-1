@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#header
+{
+    background-color: aqua;
+    font-size: 5rem;
+    font-style: oblique;
+    font-family: "Bradley","Cursive";
+    text-emphasis: none;
+    text-align: center;
+}
+#section
+{
+    font-size: 3rem;
+    font-style: oblique;
+    font-family: "Bradley","Cursive";
+    text-emphasis: none;
+    text-align: center;
+
+}
+.container
+{
+    text-align: center;
+    position: relative;
+    margin-top: 4rem;
+    font-size: 3rem;
+ 
+    font-family: serif;
+
+}
+    
+      
+input[type="checkbox"]
+{
+    position: relative;
+    top:8px;
+    height:40px;
+    width: 40px;
+    transition: .5s;
+}
+.button1
+{
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+   padding: 10px 15px;
+    font-family: "Bradley";
+    font-size: 2rem;
+  
+}
+label{
+    font-size: 36px;
+    font-family:sans-serif;
+}

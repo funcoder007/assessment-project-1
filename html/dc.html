@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>
+            SignUp / Login page
+        </title>
+        <style type = text/css>
+        body{
+         background-image: url("nj.jpg");
+         background-repeat: no-repeat;
+         background-size: cover;
+        }
+        
+        .signup
+        {
+            border:4px solid skyblue;
+            height: 500px;
+            width: 500px;
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 400px;
+            text-align: center;
+            padding-top: 2em;
+            
+           
+            
+            
+         }
+         .form
+         {
+             margin-top: 4em;
+             align-content: center ;
+         }
+            
+                    
+        
+    </style>
+        
+    </head>
+    <body>
+      
+      <div class = "Signup" >
+
+         <span style="color: black;"><span style="font-size: 3rem"> Sign Up</span></span>
+         <div class ="form">
+             
+          <form >
+              First Name : <input type="text" name="Name"required/><br><br>
+              Last Name :  <input type="text" name="LName" required/><br><br>
+              E-Mail   :     <input type="email" id = "email" name ="email" option><br><br>
+              Phone No : <input type="tel" id ="phone"name="Pn"  maxlength ="10" required/><br><br>
+             <!--- State :  <input type="text" name="state"><br><br>-->
+             State:  <select name ="state" value ="Select State" required>
+                <option value="aa"> </option>
+                  <option value="a">Andhra Pradesh</option>
+                  <option value="b">Arunachal Pradesh</option>
+                  <option value="c">Assam</option>
+                  <option value="d">Bihar</option>
+                  <option value="e">Chattisgarh</option>
+                  <option value="f">Goa</option>
+                  <option value="g">Gujarat</option>
+                  <option value="h">Haryana</option>
+                  <option value="i">Himachal Pradesh</option>
+                  <option value="j">Jammu And Kashmir</option>
+                  <option value="jj">Karnataka</option>
+                  <option value="jk">Kerala</option>
+                  <option value="ak">Madhya Pradesh</option>
+                  <option value="all">Maharahtra</option>
+                  <option value="am">Manipur</option>
+                  <option value="an">Meghalaya</option>
+                  <option value="ao">Mizoram</option>
+                  <option value="ap">Nagaland</option>
+                  <option value="aq">Odisha</option>
+                  <option value="ar">Punjab</option>
+                  <option value="as">Rajasthan</option>
+                  <option value="at">Sikkim</option>
+                  <option value="au">Tamil Nadu</option>
+                  <option value="av">Telangana</option>
+                  <option value="aw">Tripura</option>
+                  <option value="ax">Uttar Pradesh</option>
+                  <option value="ay">Uttarakhand</option>
+                  <option value="az">West Bengal</option>
+                 
+              </select><br><br>
+                                        Address :<br>
+              <textarea name = "Add" rows= "3" cols= "40" type ="fix"  required> "Your Address"
+
+              </textarea><br><br>
+              Password :
+              <input type="Password" name="pass"   maxlength="8" required  /><br><br>
+              <div class ="sbutton">
+               <input type="submit" , name = "submit", value="I'm ready to help" font-size="20" />   
+              </div>
+          </form>
+        </div> 
+          
+      </div>
+    
+    </body>
+</html>

@@ -1,0 +1,39 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    text-align: center;
+}
+
+#header
+{
+    background-color: aqua;
+    font-size: 5rem;
+    font-style: oblique;
+    font-family: "Bradley","Cursive";
+}
+
+    #navigation
+    {
+        background-color: azure;
+        text-align: left;
+        text-indent: 32px;
+        text-align: center;
+        font-size: 55px;
+    
+       
+    }
+    #insection
+    {
+        border: 2px solid black;
+        margin-left: 300px;
+        margin-right: 300px ;
+        font-size: 2rem;
+        padding:24px 24px;
+        font-style: oblique;
+        font-family: "Bradley" cursive ;
+    }

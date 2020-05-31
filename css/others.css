@@ -1,0 +1,62 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    text-align: center;
+}
+#header
+{
+    background-color: aqua;
+    font-size: 5rem;
+    font-style: oblique;
+    font-family: "Bradley","Cursive";
+    text-align: center;
+}
+header,nav, section,aside,footer
+{
+    display: block;
+}
+#section
+{
+    border: 2px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-style: oblique;
+    font-family: "Bradley","Cursive";
+    font-size: 3rem;
+    
+}
+#clothes
+{
+border:2px solid green;
+margin-left: 40px;
+margin-right: 40px;
+margin-bottom: 40px;
+border-radius: 20px;
+}
+.button1
+{
+    padding: 15px 32px;
+    background-color: white;
+    color: black;
+    border: 3px solid #4CAF50;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Bradley";
+    
+}
+#spaces
+{
+border:2px solid blue;
+margin-left: 40px;
+margin-right: 40px;
+margin-bottom: 40px;
+border-radius: 20px;
+position: relative;
+
+}
+
